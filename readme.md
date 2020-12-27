@@ -12,11 +12,11 @@
 这里有两种方法：
 
 ### 下载jar包运行
-下载并解压zip文件，您将会得到`SDUClass.jar`文件和config.ini文件。
+下载并解压zip文件，您将会得到`SDUClass.jar`文件、`des.js`文件和`config.ini`文件。
 
-打开config.ini文件，按照ini中的注释填写好对应的配置文件。
+打开`config.ini`文件，按照ini中的注释填写好对应的配置文件。
 
-保证jar包和ini文件在同一目录下，输入命令：
+保证jar包、js文件和ini文件在同一目录下，输入命令：
 ```
 >>> java -jar SDUClass.jar
 ```

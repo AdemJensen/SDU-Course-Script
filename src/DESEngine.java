@@ -13,7 +13,7 @@ public class DESEngine {
         try {
             ScriptEngineManager manager = new ScriptEngineManager();
             engine = manager.getEngineByName("javascript");
-            content = readFileContent("src/des.js");
+            content = readFileContent("des.js");
         } catch (Exception e) {
             e.printStackTrace();
         }
