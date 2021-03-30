@@ -120,14 +120,14 @@ fun aftCheck() {
 }
 
 fun main() {
+    println("欢迎来到山东大学抢课脚本 Ver 1.1.2 Beta Build 20210330")
     if (readConfig()) {
         if (username.isBlank() || password.isBlank() || username == "账号" || password == "密码") {
-            println("用户名密码设置不正确，系统自动退出")
+            println("请打开脚本目录下的 config.ini 文件，修改帐号和密码，并按照示例添加课程序号")
             return
         }
         else if (courseList.size == 0) {
-            println("有效的备选课程列表为空，无法继续，请检查配置文件是否正确")
-            return
+            println("[警告]有效的备选课程列表为空，程序仅进行登录测试")
         }
         else println("设置加载已完成\n========山大软件园交通委提醒您========" +
                 "\n        抢课千万条，安全第一条。\n        抢完不检查，亲人两行泪。\n===================================")
@@ -152,7 +152,7 @@ fun main() {
                     loopInfoHeaderOut = true
                     println("在第 $count 次监听操作中：")
                 }
-                print("\t课程$course")
+                print("\t课程$course ")
                 when (statusCode) {
                     1 -> {
                         println("已成功选择")

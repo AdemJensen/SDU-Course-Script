@@ -24,9 +24,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a63e51-2a4d-40e0-ad6d-f98512be673b" name="Default Changelist" comment="Added a cooling time after each post action to avoid system check.">
+    <list default="true" id="42a63e51-2a4d-40e0-ad6d-f98512be673b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <recent name="$PROJECT_DIR$/out/artifacts/SDUClass_jar" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainKt">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="DESEngine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DESEngine" />
       <module name="SDUClass" />
@@ -114,6 +114,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.DESEngine" />
+      <item itemvalue="Kotlin.MainKt" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DESEngine" />
@@ -171,22 +175,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added a cooling time after each post action to avoid system check." />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1609050507555">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1617075221808">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609050507555" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1609050507555">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.25.1440.815@0.25.1440.815" timestamp="1617075221808" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1617075221807">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609050507555" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1609050507555">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.25.1440.815@0.25.1440.815" timestamp="1617075221807" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1617075221806">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609050507555" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1609050507555">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.25.1440.815@0.25.1440.815" timestamp="1617075221806" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1617075221807">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609050507555" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.25.1440.815@0.25.1440.815" timestamp="1617075221807" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1609049005884">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
